@@ -29,7 +29,7 @@ public class QuizServico {
 	}
 	
 	//Consulta todos os tópicos existentes no sistema
-	private ArrayList<Topico> consultarTopicos() throws SQLException {
+	public ArrayList<Topico> consultarTopicos() throws SQLException {
 		Statement statement = this.conexao.createStatement();
 		
 		//SQL que será executado no banco de dados
